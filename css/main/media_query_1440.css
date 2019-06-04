@@ -1,0 +1,73 @@
+/* BreakPoint 1440px */
+
+@media only screen and (max-width: 1440px) 
+
+{
+	
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Masthead        *********** */
+
+	.masthead_content {
+		top: 35%;
+	}
+
+	.masthead_buttons {
+		top: 45%;
+	}
+
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Services        *********** */
+
+	.services_head {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.services_blocks {
+		justify-content: center;
+	}
+
+	.services_blocks_img {
+    	width: 45%;
+    	margin-left: 10%;
+    	padding-top: 5%;
+    }
+
+    .services_blocks_content {
+    	padding:  2%;
+    	width: 60%;
+    }
+
+    .services_blocks_content_list_line {
+    	height: 125px;
+    }
+
+    .services_blocks_content_icons {
+    	margin-top: 25px;
+    }
+
+    .services_blocks_content_dot {
+    	margin-top: 55px;
+    	margin-bottom: 55px;
+    }
+
+	
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Projects        *********** */
+
+	.projects_posts {
+		width: 60%;
+		padding-left: 20%;
+	}
+
+	
+
+}

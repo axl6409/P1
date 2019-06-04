@@ -1,0 +1,151 @@
+/* BreakPoint 1024px TO 1200px */
+
+@media only screen and (max-width: 1024px) 
+
+{	
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Header          *********** */
+	
+	.header_logo {
+		margin-left: 35%;
+	}
+
+	.header_navigation {
+		margin-right: 25%;
+	}
+
+	.menu_item {
+		padding-top: 0;
+		line-height: 20px;
+	}
+	.menu_item:hover {
+		padding-top: 0;
+		line-height: 20px;
+	}
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Masthead        *********** */
+	
+	.masthead_content {
+		top: 25%;
+		left: 70px;
+		width: 50%;
+	}
+
+	.masthead_content_title_one {
+		font-size: 25px;
+	}
+
+	.masthead_content_title_two {
+		font-size:  25px;
+	}
+
+	.masthead_content_text {
+		font-size: 15px;
+	}
+
+	.masthead_buttons {
+		top: 150px;
+	}
+
+	.masthead_blue_line {
+		height: 2px;
+		bottom: 3px;
+	}
+
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Services        *********** */
+	
+	.services_head {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.services_blocks {
+		flex-direction: column;
+	}
+
+	.services_blocks_content {
+		width: 90%;
+		padding: 5%;
+	}
+
+	.services_blocks_content_list_line {
+		height: 120px;
+	}
+
+	.services_blocks_content_icons {
+		margin-top: 30px;
+	}
+
+	.services_blocks_content_dot {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.services_blocks_img {
+		margin-left: 25%;
+	}
+
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Projects        *********** */
+	
+	.projects_posts {
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: center;
+	}
+	
+	.projects_posts_blocks {
+		height: 200px;
+	}
+
+	.projects_posts_blocks_img {
+		height: 200px;
+	}
+
+	.projects_posts_blocks_info {
+		height: 200px;
+	}
+
+	.projects_posts_blocks_info h3 {
+		width: 90%;
+    	text-align: center;
+	}
+	
+
+	.projects_posts_blocks_info p {
+		width: 90%;
+    	text-align: center;
+	}
+
+	.projects_posts_blocks_info button {
+		right: 40%;
+		top: 90px;
+	}
+	
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Contact         *********** */
+
+	.contact_block {
+		width: 85%;
+		right: 5%;
+		top: 600px;
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,183 @@
+/* BreakPoint 768px TO 1024px */
+
+@media only screen and (max-width: 768px) 
+
+{
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Header          *********** */
+	
+	.header_logo {
+		margin-left: 30%;
+	}
+
+	.header_navigation {
+		margin-right: 25%
+	}
+
+	.menu_item {
+		padding-top: 0;
+		padding-bottom: 5px;
+	}
+	.menu_item:hover {
+		padding-top: 0;
+	}
+
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Masthead        *********** */
+
+	.masthead {
+		margin-top: 110px;
+	}
+	
+	.masthead_content {
+		top: 25%;
+		left: 50px;
+		width: 90%;
+		text-align: center;
+	}
+
+	.masthead_content_title_one {
+		font-size: 20px;
+	}
+
+	.masthead_content_title_two {
+		font-size:  20px;
+	}
+
+	.masthead_content_text {
+		font-size:  15px;
+	}
+
+	.masthead_buttons {
+		top: 100px;
+	}
+
+	.masthead_blue_line {
+		height: 2px;
+	}
+
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Services        *********** */
+	
+	.services_head {
+		width: 90%;
+		margin-left: 0px;
+		padding-left: 5%;
+		padding-right: 5%;
+
+	}
+
+	.services_blocks {
+		flex-direction: column;
+	}
+
+	.services_blocks_img {
+		margin-left: 0;
+		width: 100%;
+		padding:  0;
+	}
+
+	.services_blocks_content {
+		padding: 5%;
+		width: 90%;
+	}
+
+	.services_blocks_content_line {
+		width: 100%;
+	}
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Projects        *********** */
+
+
+	.projects_quateg_buttons {
+		width: 125px;
+	}
+
+	.projects_posts {
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.projects_posts_blocks {
+		width: 300px;
+		height: 200px;
+	}
+
+	.projects_posts_blocks_img {
+		width: 300px;
+		height: 200px;
+	}
+
+	.projects_posts_blocks_info {
+		opacity: 1;
+		height: 200px
+	}
+
+	.projects_posts_blocks_info h3 {
+		position: unset;
+		text-align: center;
+		margin-top: 5%;
+		width: 100%
+	}
+
+	.projects_posts_blocks_info p {
+		position: unset;
+		text-align: center;
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.projects_posts_blocks_info button {
+		right: 44%;
+		top: 150px;
+	}
+
+
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************************************************ */
+	/* ************         Contact         *********** */
+
+	.contact {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact_iframe {
+		height: 500px;
+		width: 100%;
+		position: unset;
+	}
+
+	.contact_iframe_filter {
+		height: 500px;
+	}
+
+	.contact_block {
+		top: 0;
+		position: unset;
+		height:  auto;
+		width: 90%;
+		margin-bottom: 20px;
+	}
+
+	.form_submit {
+		text-align:  center;
+	}
+}
